@@ -13,19 +13,23 @@ This project contains automated tests for the login page at 'https://www.saucede
 2. Navigate to your project directory.
 3. Run the following command to install Cypress via npm:
 
-npm install cypress --save-dev
+npm install
 
 This will install Cypress locally as a dev dependency for your project.
 
 ## Running Tests
+
 **Issues encountered when running the specs** : https://github.com/cypress-io/cypress/issues/27501#issuecomment-1722403606
 
 To run the tests, you can use the following command:
 
-npx cypress open
+npm run cypress:run
+
+And for development run:
+
+npm run cypress:open
 
 This will open the Cypress Test Runner. From there, you can click on the spec file you want to run.
-
 
 ## Test Files
 
@@ -48,5 +52,3 @@ If you want to contact me, you can reach me at `ozy1985@yahoo.com`.
 ## License
 
 This project uses the following license: `<MIT>`.
-
-
