@@ -1,0 +1,15 @@
+{
+  "validUser": {
+    "username": "standard_user"
+  },
+  "blockedUser": {
+    "username": "locked_out_user"
+  },
+  "otherUsers": [
+    "visual_user",
+    "problem_user",
+    "error_user",
+    "performance_glitch_user"
+  ],
+  "password": "secret_sauce"
+}
